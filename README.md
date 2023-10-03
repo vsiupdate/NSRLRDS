@@ -8,7 +8,7 @@ The RDS provides crucial data like cryptographic hash values and file origins to
 ## Download and Conversion 
 For versions of the NSRL dataset after RDSv3, the dataset must be converted to CSV format to be imported into OSForensics. The two shell scripts are designed to convert the data to the appropriate format. 
 
-NOTE: these require the bash shell is required to perform the conversion.  Sqlite3 must be installed.  Plenty of drive space must be available. 
+NOTE: these require the bash shell to perform the conversions.  Sqlite3 must be installed.  Plenty of drive space must be available. 
 
 Download latest FULL SQL and DELTA datasets from https://www.nist.gov/itl/ssd/software-quality-group/national-software-reference-library-nsrl/nsrl-download/current-rds and place them appropriate folders (i.e. Modern_Minimal, Legacy,_Minimal, Android_Minimal, iOS_Minimal).
 
